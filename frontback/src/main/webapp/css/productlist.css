@@ -1,0 +1,51 @@
+section {
+    background-color: white !important;
+}
+
+section>div.productlist {
+    background-color: white;
+    width: 100%;
+    overflow: auto;
+    height: 300px;
+
+}
+
+div.productlist>div.product {
+    width: 20%;
+    display: inline-block;
+}
+
+
+section>div.productlist>div.product>ul {
+    width: 100%;
+    list-style-type: none;
+    padding: 10px;
+}
+
+section>div.productlist>div.product>ul>li {
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+section>div.productlist>div.product>ul>li>img {
+    width: 100%;
+}
+
+section>div.productlist>div.product>ul>li>span {
+    display: block;
+}
+
+section>div.pagegroup>span:hover{
+   background-color:gray;
+   
+   
+    
+}
+
+div.pagegroup{
+   margin-top: 100px;
+   text-align: center;   
+   height:10%
+}

@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+   
+
+}
+.product_view{
+    background-color: white !important;
+
+}
+
+div.product_view>div.product_view_pic{
+    width: 40.9%;
+    float: left;
+}
+div.product_view>div.product_view_pic img{
+    width: 100%;
+    /* min-height: 212px; */
+    max-height: 439px;
+
+}
+div.product_view>div.product_view_detail{
+    margin-top: 20px;
+  
+    width: 55.45%;
+    float: right;
+}
+/* div.product_view>div.product_view_detail>h4>span.en{
+    display: none;
+} */

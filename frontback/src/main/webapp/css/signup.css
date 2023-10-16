@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+form.login{
+    background-color: #fff;
+}
+form.login>input, form.login>button, form.login>button.iddupchk {
+    width: 100%;
+    display: inline-block;
+}
+
+form.login>button.iddupchk ,form.login>button.signup{
+    background-color: #253f03;
+    color: #fff;
+    margin-top: 5px;
+}
+
+form.login>button.signup {
+  
+    display: none;
+} 

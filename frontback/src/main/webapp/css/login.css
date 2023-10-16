@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+   
+}
+form.login> *{
+    display: inline-block;
+}
+form.login>input[name=id],form.login>input[name=pwd] {
+    width: 100%;
+}
+
+form.login>label, form.login>span{
+    color: black;
+}
+@media screen and (max-width:640px) {
+    form.login>span{
+        background-color: none;
+        
+       
+    }
+}
